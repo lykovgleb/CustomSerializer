@@ -58,9 +58,6 @@
                     newNode = newNode.Next;
                 }
             }
-
-            Console.WriteLine(list.Head.GetHashCode());
-            Console.WriteLine(newList.Head.GetHashCode());
         }
     }
 }
